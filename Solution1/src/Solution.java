@@ -8,8 +8,8 @@ import java.util.regex.*;
 
 
 public class Solution {
-    static String[] missingWords(String s, String t) {
-        String[] arr = s.split(" ");
+    static String[] missingWords(String inputArr, String arrSearch) {
+        String[] arr = arrSearch.split(" ");
         String[] result = new String[]{};
 
         for (int i = 0; i < arr.length; i++) {
