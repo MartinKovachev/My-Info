@@ -8,8 +8,8 @@ import java.util.regex.*;
 
 
 public class Solution {
-    static String[] missingWords(String inputArr, String arrSearch) {
-        String[] arr = arrSearch.split(" ");
+    static String[] missingWords(String inputArr, String arrSearch) { //Takes as a parameters an input array of words(sentences) and a words for searching into the array.
+        String[] arr = arrSearch.split(" ");                          //If there are common word(words in the array), the method returns all the other words which are in the array!
         String[] result = new String[]{};
 
         for (int i = 0; i < arr.length; i++) {
